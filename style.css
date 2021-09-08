@@ -1,0 +1,114 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+  width: 50%;
+}
+.page-body{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.uet-history a{
+  color: #005095;
+}
+.uet-history{
+  padding-left: 30px;
+}
+.history-time{
+  margin-bottom: 15px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.desktop_nav_item {
+  margin: auto;
+}
+
+.mobi_nav_item {
+  display: none;
+}
+
+.icon {
+  display: none;
+}
+.table{
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  padding: 8px 16px;
+  background-color: #005095;
+}
+.logo-uet{
+  width: 80px;
+  height: 80px;
+}
+.logo-uet img{
+  width: 100%;
+  height: 100%;
+}
+.nav_bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.nav_bar a{
+  color: #fff;
+}
+.mobi_nav_item{
+  background-color: #005095;
+}
+.mobi_nav_item a{
+  color: #fff;
+  padding: 10px 20px;
+}
+.corousel {
+  height: 460px;
+  background-image: url("./images/carousel.jpg");
+  background-size: 100% 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 575px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .desktop_nav_item {
+    display: none;
+  }
+
+  .icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    display: inline;
+  }
+
+  .mobi_nav_item {
+    display: none;
+  }
+
+  .mobi_nav_item.responsive {
+    display: block;
+  }
+
+  .mobi_nav_item.responsive a {
+    display: block;
+  }
+}
+
+/*  */
